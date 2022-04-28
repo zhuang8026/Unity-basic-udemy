@@ -28,7 +28,7 @@ public class Ch3_35_7_time_code_c1 : MonoBehaviour
     void Awake()
     {
         // 要先去 Unity3d 設定給定 FPS 才有效果
-        Application.targetFrameRate = 30; // 
+        Application.targetFrameRate = 30; // Edit> Project Setting> Quality> Other區域> VSync Count> Don't Sync
     }
 
     void Start()
