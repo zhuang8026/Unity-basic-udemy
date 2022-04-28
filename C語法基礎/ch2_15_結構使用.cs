@@ -20,6 +20,7 @@ public class ch2_15_結構使用: MonoBehaviour
         ch2_14_類 arms2 = arms1; // arms2 獲得新的物件包括地址
 
         ch15_2._h = 1899;
+        ch15_2.getW();
         arms2.setARK(1899);
         
         Debug.Log("Struct:" + ch15._h); // 60

@@ -19,4 +19,8 @@ public struct ch2_15_結構 {
         _w=w;
         _h=h;
     }
+
+    public float getW(){
+        return _w;
+    }
 }
