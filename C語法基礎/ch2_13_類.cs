@@ -16,7 +16,7 @@ public class ch2_13_類 {
     public float getARK() {
         return _ark;
     }
-    public void setARK(float ark) {
+    public void setARK(float ark) { 
         if(ark < 0){
             Debug.Log("ARK不可小於0");
             ark=0;
@@ -26,6 +26,12 @@ public class ch2_13_類 {
 
     // get&set 封裝
     public int Lv{
+        /*
+            get => arms1.Lv
+            set => arms1.Lv=50;
+
+            value: 是外部使用 "arms1.Lv=50;", value 就等於 50
+        */
         get{
             return _Lv;
         }
