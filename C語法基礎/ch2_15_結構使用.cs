@@ -11,16 +11,16 @@ public class ch2_15_結構使用: MonoBehaviour
 {
     void Start(){
         // struct 
-        ch2_15_結構 ch15 = new ch2_15_結構();
-        // ch2_15_結構 ch15 = new ch2_15_結構(10, 60);
-        ch2_15_結構 ch15_2 = ch15; // ch15_2 獲得新的結構
+        // ch2_15_結構 ch15 = new ch2_15_結構();
+        ch2_15_結構 ch15 = new ch2_15_結構(10, 60); // (_w, _h)
+        ch2_15_結構 ch15_2 = ch15; // ch15_2 獲得新的結構，並不會改變原來ch15的參數
 
         // class
         ch2_14_類 arms1 = new ch2_14_類(10, 9, 8);
         ch2_14_類 arms2 = arms1; // arms2 獲得新的物件包括地址
 
         ch15_2._h = 1899;
-        ch15_2.getW();
+        ch15_2.getW(); // 取得寬度
         arms2.setARK(1899);
         
         Debug.Log("Struct:" + ch15._h); // 60
