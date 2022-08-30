@@ -19,5 +19,6 @@ public class Ch2_7 : MonoBehaviour
         foreach(string value in foods){
             Debug.Log(value);
         }
+
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ch2_8 : MonoBehaviour
 {
+    int HPP = 10; // 如果沒有打public，那麽默認就是private
     public int _hp = 10;
     public int hp = 10;
     private int _hp3 = 10; // private 可不寫，就是"私有的"
@@ -33,11 +34,12 @@ public class Ch2_8 : MonoBehaviour
     } 
 
     void setHp(int hp) {
-        _hp = hp;
+        this._hp = hp;
         this.hp = hp; // 如果名字一樣，可以前面加一個this
     } 
 
     void jump() {
         Debug.Log("跳起來");
     }
+
 }

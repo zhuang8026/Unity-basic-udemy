@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// 類別
 public class ch2_10: MonoBehaviour
 {
     // Start is called before the first frame update
